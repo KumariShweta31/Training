@@ -1,3 +1,9 @@
 Client - server architecture
 Git Hub - version control mng
+    git status : check current status
+    git add . : to select all files
+    git commit -m "" :  to give title to the actions
+    git status :  
+    git branch 
+    git push origin branchname 
 
