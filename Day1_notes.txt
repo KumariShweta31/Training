@@ -11,3 +11,5 @@ Git Hub - version control mng
 HTML NOTES:
  <image src= "image.png" alt = "some text"> - to select the image
  <a href = "" </a>
+ unorderd list - <ul><li> </li></ul> (circle, square)
+ Ordered list - <ol> <li> </li></ol> (numerical)
