@@ -8,3 +8,6 @@ Git Hub - version control mng
     git push origin branchname 
     gitk : to track the details 
 
+HTML NOTES:
+ <image src= "image.png" alt = "some text"> - to select the image
+ <a href = "" </a>
