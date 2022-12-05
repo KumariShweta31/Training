@@ -13,3 +13,11 @@ HTML NOTES:
  <a href = "" </a>
  unorderd list - <ul><li> </li></ul> (circle, square)
  Ordered list - <ol> <li> </li></ol> (numerical)
+HTML semantic- Header /Footer
+Non semantic - Div/ Span
+Table tag- allows developer to arrange data into rows and columns <table> </table>
+    <th>- table heading
+    <td>- table data
+    <tr>- table row
+    rowspan - row spacing
+    colsoan- column spacing
