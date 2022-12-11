@@ -7,14 +7,15 @@
 
 <body>
 
-    <h1 style="background: black;color: white;outline: 4px outset grey;text-align:center;">RESUME</h1>
+    <h1 class= "ResumeStyle">RESUME</h1>
     <br>
-    <img src="C:\Users\31shw\Pictures\pic.jpg" alt="Profile Pic" width="200" height="200" style=" border: 5px inset black;">
+    <img src="C:\Users\31shw\Pictures\pic.jpg" alt="Profile Pic" width="200" height="200" style=" border: 5px inset black; position: relative; top: 70px; left: 90px;">
 
-    <h1 style="text-decoration: underline; display: inline; font-family: Arial, Helvetica, sans-serif;font-size: 30px;text-shadow: 3px 3px 3px #ababab;">SHWETA KUMARI</h1>
-
+    <h1 class= "NameStyle">SHWETA KUMARI</h1>
+    <h3 style= "position: relative;top: -80px; left: 370px;"> Email Id- 31shwetakumari@gmail.com</h3>
+    <h3 style= "position: relative;top: -80px; left: 370px;"> Phone No- 7410782127</h3>
     <div>
-        <h3 style= "background-color: lightgray; text-shadow: 3px 3px 3px #ababab" text-align:left; ><i>About Me</i></h3>
+        <h3 class= "AboutMe"><i>About Me</i></h3>
     
 
     <p class= "Alignleft" style="width: 50%;">
@@ -24,9 +25,9 @@
         creative something interesting.
     </p>
 </div>
-    <a href="https://www.lipsum.com/" target="_blank">Read More...</a>
+    <a href="https://www.lipsum.com/" target="_blank" style="position: relative;left: 370px;">Read More...</a>
     <br>
-    <h3 style="background-color: lightgray; text-shadow: 3px 3px 3px #ababab" class="Alignleft"><i>Academic Details</i></h3>
+    <h3 class= "ADetails"><i>Academic Details</i></h3>
     <br>;
     <style>
         table,
@@ -35,7 +36,7 @@
             border: 1px solid black;
         }
     </style>
-    <table style="width:50%">
+    <table class="TableStyle">
         <tr>
             <th>University/School</th>
             <th>Course</th>
@@ -68,30 +69,30 @@
         </tr>
     </table>
     <br>
-    <h3 style="background-color: lightgray; text-shadow: 3px 3px 3px #ababab" ><i>Hobbies</i></h3>
-    <ul>
+    <h3 class= "Hobbies"><i>Hobbies</i></h3>
+    <ul class= "ListStyle">
         <li>Drawing and Sketching</li>
         <li>Dancing</li>
         <li>Reading books</li>
         <li>Sewing</li>
     </ul>
-    <h3 style="background-color: lightgray; text-shadow: 3px 3px 3px #ababab" ><i>Fill Details for Enquiry</i></h3>
+    <h3 class= " Details"><i>Fill Details for Enquiry</i></h3>
     <br>
-    <form>
+    <form class= "FormStyle">
         <label for="fname">Name:</label>
         <input type="text" id="fname" name="fname"><br><br>
-        <label for="DOB">Date Of Birth:</label>
-        <input type="Date" id="DOB" name="DOB"><br><br>
+        <label style= "position: relative; top: -40px; left: 400px;" for= "DOB">Date Of Birth:</label>
+        <input style= "position: relative; top: -40px; left: 400px;" type="Date" id="DOB" name="DOB"><br><br>
         <label for="App">Appointment Time:</label>
         <input type="time" id="App" name="App"><br><br>
-        <label for="num">Contact:</label>
-        <input type="number" id="num" name="num"><br><br>
+        <label style= "position: relative; top: -40px; left: 400px;"for="num">Contact:</label>
+        <input style= "position: relative; top: -40px; left: 400px;"type="number" id="num" name="num"><br><br>
         <label for="gen">Gender</label><br>
         <input type="radio" id="gen" name="gender" value="Male">
           <label for="gen">Female</label><br>
           <input type="radio" id="gen" name="gender" value="Female">
           <label for="gen">Male</label><br><br>
-        <input type="submit" value="Submit">
+        <input style= "position: relative; top: -80px; left: 400px; width: 200px;height: 50px;"type="submit" value="Submit">
 
     </form>
     </form>
