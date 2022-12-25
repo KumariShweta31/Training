@@ -1,0 +1,43 @@
+.title{
+    text-align: center;
+    background-color: lightblue;
+    
+
+}
+.profilepic{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+.vertical-line{
+    width: 0.2px; /* Line width */
+    background-color: black; /* Line color */
+    height: 800px; /* Override in-line if you want specific height. */
+    float: left; /* Causes the line to float to left of content. 
+      You can instead use position:absolute or display:inline-block
+      if this fits better with your design */
+    padding-left: 1px;
+    padding-right: 1px;
+
+  }
+  .name{
+   background-color: lightblue;
+   position: relative;
+   top: 20px;
+  }
+  .personalinfo{
+    margin-left: 20px;
+ }
+ .skill_lang{
+  background-color: lightblue;
+  position: relative;
+  right: 33px;
+  height: 600px;
+  
+ }
+ .align_center{
+  margin-left: 20px;
+ }
+ .bgcolor{
+  background-color: lightblue;
+ }

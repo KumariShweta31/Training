@@ -1,0 +1,152 @@
+.logo{
+    width: 112px;
+    position: absolute;
+    top: 50px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.logo_align{
+    position: relative;
+}
+.sticky_note{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: white;
+}
+.book_now{
+    position: absolute;
+    right: 96px;
+    top: 33px;
+    z-index: 1;
+    background: #bb9b42;
+    padding: 12px 15px;
+    font-size: 15px;
+    font-family: 'RobotoCondensed-Bold' !important;
+    color: #ffffff;
+}
+.box{
+    display: block;
+    background: #bb9b42;
+    padding: 30px 0 50px 0;
+    width:100%;
+    height: 50%;
+
+}
+.Label1{
+    position: relative;
+    left: 4px;
+    top: 0px;
+    color: white;
+    font-family: 'RobotoCondensed-Regular';
+}
+
+.boxes{
+    position: relative;
+    top: 0px;
+    height: 40px;
+    background-color: white;
+    font-family: 'RobotoCondensed-Regular';
+    width: 180px;
+    border: 2px solid white;
+    
+}
+
+
+.butn:hover {
+    background-color: white;
+    border: none;
+  }
+  .butn{
+    background-color: white;
+  }
+  .butn1{
+    background-color: #514a3b;
+    color:white;
+  }
+.welcome_box{
+    display: block;
+    height: 480px;
+    width: 1269px;
+}
+.logo2{
+    margin-bottom: 15px;
+    position: relative;
+    left: 0px;
+    top: 40px;
+
+}
+.W_text{
+    font-family: 'philosopherbold';
+    font-size: 34px;
+    color: #514a3b;
+}
+.para{
+    display: block;
+    font-family: 'RobotoCondensed-Light';
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 200px 75px 200px;
+    line-height: 34px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.btn_know:hover{
+background-color: #bb9b42 ;
+
+}
+.btn_know{
+    position: relative;
+    top: -55px;
+    font-size: 16px;
+    color: #2b2a29;
+    padding: 10px 15px;
+    border: 1px solid #bb9b42;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.brand_logo{
+    height: 298px;
+    width: 1263.33px;
+    position: relative;
+    padding: 50px 0;
+    background: #bb9b42;
+}
+.brand_head{
+    position: relative;
+    top: -25px;
+    color: white;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 35px;
+}
+.img1{
+    max-width: 100%;
+    width: 207px;
+    position: relative;
+    left: 150px;
+}
+.img2{
+    max-width: 100%;
+    width: 207px;
+    position: relative;
+    left: 186px;
+}
+.img3{
+    max-width: 100%;
+    width: 207px;
+    position: relative;
+    left: 225px;
+}
+.img4{
+    max-width: 100%;
+    width: 207px;
+    position: relative;
+    left: 282px;
+}
+.pic_box{
+    height: 651.77px;
+    width: 1263.33px;
+}
